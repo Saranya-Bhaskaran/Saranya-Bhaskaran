@@ -10,27 +10,30 @@
 
 ## Introduction
 
-Provide an overview of your project. Explain what the project does, its purpose, and any relevant background information.
+The main objective of this usecase is to detect the SKU(store keeping units) and grouping similar SKU using the feature extraction algorithms and cosine similarity to create the clusters of same objects/products. For SKU detection, YOLOV5 model trained on SKU110 dataset has been used and in the next step the detected objects are passed to the feature extraction algorithms VGG16 and image hashing.In the end the clustering algoirthms are applied to cluster the extracted features using cosine similarity and hamming distance.
 
 ## Solution Architecture
 
 Describe the architecture of your solution. This can include:
 
-- **System Overview**: High-level description of the system.
-- **Components**: Details about each major component and how they interact.
-- **Data Flow**: Description of how data moves through the system.
+- **System Overview**: High-level description of the system's design and how the components interact.
+- **Components**: Details about each major component and its role.
+- **Data Flow**: Explanation of how data is processed, transformed, and utilized within the system.
 
-You might include diagrams or architectural drawings if they help clarify your architecture.
+Include diagrams if available:
+
+![Architecture Diagram](images/architecture-diagram.png)
+*Figure 1: System architecture diagram.*
 
 ## Tools/Models Used
 
 List and describe the tools and models used in the project:
 
-- **Tool/Model 1**: Description and purpose.
-- **Tool/Model 2**: Description and purpose.
-- **Tool/Model 3**: Description and purpose.
+- **TensorFlow**: A powerful library for machine learning and deep learning tasks.
+- **Apache Kafka**: A distributed event streaming platform used for real-time data processing.
+- **Python**: The programming language used for implementing the project.
 
-Provide links to resources or documentation for each tool/model if available.
+Provide links to documentation or resources for each tool/model if available.
 
 ## Installation
 
@@ -39,7 +42,10 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/username/repository.git
 cd repository
-npm install
+pip install -r requirements.txt
+
+
+
 
 
 
