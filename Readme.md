@@ -21,7 +21,7 @@ The overview of the implementation is represented in the below diagram
 - **Clustering**: Last step is to implement the clustering algorithms on the extracted features using cosine similarity and hamming distance.
 Include diagrams if available:
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 *Figure 1: System architecture diagram.*
 
 ## Models/Tools Used
