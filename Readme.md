@@ -22,7 +22,7 @@ The overview of the implementation is represented in the below diagram
 Include diagrams if available:
 
 ![Architecture Diagram](architecture_diagram.png)
-*Figure 1: System architecture diagram.*
+#*Figure 1: System architecture diagram.*
 
 ## Models/Tools Used
 
