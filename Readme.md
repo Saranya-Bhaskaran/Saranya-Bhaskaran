@@ -37,18 +37,12 @@ The list of the models that are used for the implementation given below:
 Follow these steps to set up the project on your local machine:
 
 ```bash
-git clone https://github.com/username/repository.git
 cd repository
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 ```
-After installing all the required libraries, now let's run the code
+After installing all the required libraries, now let's run the file after opening terminal in src folder
 ```bash
-streamlit app.py
-
-
-
-
-
+$ streamlit run app.py
 
 
