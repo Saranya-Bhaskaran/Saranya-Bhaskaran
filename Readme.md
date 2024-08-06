@@ -2,7 +2,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Solution Architecture](#architecture)
+2. [Solution Architecture](#soultion_architecture)
 3. [Tools/Models used](#models)
 4. [Installation](#installation)
 5. [Results](#results)
@@ -22,5 +22,9 @@ Instructions to install the project.
 git clone https://github.com/username/repository.git
 cd repository
 npm install
+
+## Installation
+
+
 
 
