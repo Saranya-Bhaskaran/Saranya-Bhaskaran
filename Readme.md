@@ -14,26 +14,23 @@ The main objective of this usecase is to detect the SKU(store keeping units) and
 
 ## Solution Architecture
 
-Describe the architecture of your solution. This can include:
+The overview of the implementation is represented in the below diagram
 
-- **System Overview**: High-level description of the system's design and how the components interact.
-- **Components**: Details about each major component and its role.
-- **Data Flow**: Explanation of how data is processed, transformed, and utilized within the system.
-
+- **SKU Detection**: In this application user needs to upload an Image that will detect SKU's using YOLOV5 Object detection model trained on SKU110 Dataset. Detected objects/products will be stored for next step(Feature Extraction) with their confidence level and co-ordinates in the image.
+- **FeatureExtraction**: At this stage, Image Features Extraction is performed using multiple alogorithms(like VGG16, Image GPT and Image Hashing) on the original and enhanced detected objects.
+- **Clustering**: Last step is to implement the clustering algorithms on the extracted features using cosine similarity and hamming distance.
 Include diagrams if available:
 
 ![Architecture Diagram](images/architecture-diagram.png)
 *Figure 1: System architecture diagram.*
 
-## Tools/Models Used
+## Models/Tools Used
 
-List and describe the tools and models used in the project:
+The list of the models that are used for the implementation given below:
 
-- **TensorFlow**: A powerful library for machine learning and deep learning tasks.
-- **Apache Kafka**: A distributed event streaming platform used for real-time data processing.
-- **Python**: The programming language used for implementing the project.
+- **Model1**: YOLOV5 model to detect the store keeping unit(SKU).
+- **Model2**: Feature extraction model to detect the products that are present in the SKU.
 
-Provide links to documentation or resources for each tool/model if available.
 
 ## Installation
 
@@ -43,6 +40,11 @@ Follow these steps to set up the project on your local machine:
 git clone https://github.com/username/repository.git
 cd repository
 pip install -r requirements.txt
+
+After installing all the required libraries, now let's run the code
+
+```bash
+streamlit app.py
 
 
 
