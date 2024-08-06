@@ -40,9 +40,16 @@ Follow these steps to set up the project on your local machine:
 cd repository
 $ pip install -r requirements.txt
 
-```
+``` 
 After installing all the required libraries, now let's run the file after opening terminal in src folder
 ```bash
 $ streamlit run app.py
-
+```
+## Results
+*Input diagram.*
+![Input image](Input.png)
+*Design diagram.*
+![Design image](Design.png)
+*Detection diagram.*
+![Detection image](Detection_Result.png)
 
