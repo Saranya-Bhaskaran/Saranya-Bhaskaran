@@ -2,11 +2,10 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Solution Architecture](#architecture)
-3. [Tools/Models used](#models)
+2. [Solution Architecture](#solution-architecture)
+3. [Tools/Models Used](#toolsmodels-used)
 4. [Installation](#installation)
 5. [Results](#results)
-6. [Icheck](#icheck)
 
 
 ## Introduction
