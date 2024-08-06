@@ -5,7 +5,8 @@
 2. [Solution Architecture](#architecture)
 3. [Tools/Models used](#models)
 4. [Installation](#installation)
-5. [CResults](#results)
+5. [Results](#results)
+6. [Icheck](#icheck)
 
 
 ## Introduction
@@ -22,4 +23,4 @@ git clone https://github.com/username/repository.git
 cd repository
 npm install
 
-## Tools/Models used
+
