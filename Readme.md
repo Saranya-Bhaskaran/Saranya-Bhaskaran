@@ -41,8 +41,8 @@ git clone https://github.com/username/repository.git
 cd repository
 pip install -r requirements.txt
 
+```
 After installing all the required libraries, now let's run the code
-
 ```bash
 streamlit app.py
 
