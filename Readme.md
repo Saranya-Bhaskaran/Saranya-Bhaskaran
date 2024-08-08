@@ -22,7 +22,7 @@ The overview of the implementation is represented in the below diagram
 - 
 - **Planogram Analysis**:Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct way in the input image and the anlaysed image will be shared as output.
 
-![Architecture Diagram](Images/Planogram_architecture.png)
+![Architecture Diagram](Images/Planogram_architecture_v1.png)
 
 
 ## Models/Tools Used
