@@ -20,7 +20,7 @@ The overview of the implementation is represented in the below diagram
   
 - **SKU Detection**: In the next step of the process the SKU's will be detected using YOLOV8 Object detection trained model. Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct in the input image and the anlaysed image will be shared as output.
 
-Include diagrams if available:
+
 
 ![Architecture Diagram](Images/Planogram_architecture.png)
 
