@@ -10,26 +10,27 @@
 
 ## Introduction
 
-The main objective of this usecase is to detect the SKU(store keeping units) and grouping similar SKU using the feature extraction algorithms and cosine similarity to create the clusters of same objects/products. For SKU detection, YOLOV5 model trained on SKU110 dataset has been used and in the next step the detected objects are passed to the feature extraction algorithms VGG16 and image hashing.In the end the clustering algoirthms are applied to cluster the extracted features using cosine similarity and hamming distance.
+The main objective of this usecase is to identify the shelves that are present in the rack using the trained YOLOV8 model and in the next step SKU(store keeping units) are detected using the other YOLOV8 model. The resultant image is compared with the given planogram design to analyse the products allignment is correct or incorrect along with if any SKUS are in out of stock or empty condition. 
 
 ## Solution Architecture
 
 The overview of the implementation is represented in the below diagram
 
-- **SKU Detection**: In this application user needs to upload an Image that will detect SKU's using YOLOV5 Object detection model trained on SKU110 Dataset. Detected objects/products will be stored for next step(Feature Extraction) with their confidence level and co-ordinates in the image.
-- **FeatureExtraction**: At this stage, Image Features Extraction is performed using multiple alogorithms(like VGG16, Image GPT and Image Hashing) on the original and enhanced detected objects.
-- **Clustering**: Last step is to implement the clustering algorithms on the extracted features using cosine similarity and hamming distance.
+- **Shelf Detection**: In this application user needs to upload an Image that will detect shelves using YOLOV8 Object detection trained model.
+  
+- **SKU Detection**: In the next step of the process the SKU's will be detected using YOLOV8 Object detection trained model. Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct in the input image and the anlaysed image will be shared as output.
+
 Include diagrams if available:
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](Images/Planogram_architecture.png)
 
 
 ## Models/Tools Used
 
 The list of the models that are used for the implementation given below:
 
-- **Model1**: YOLOV5 model to detect the store keeping unit(SKU).
-- **Model2**: Feature extraction model to detect the products that are present in the SKU.
+- **Model1**: YOLOV8 model to detect the shelves that are prsent in the rack.
+- **Model2**: YOLOV8 model to detect the store keeping unit(SKU) and the products that are present in the SKU.
 
 
 ## Installation
@@ -46,10 +47,16 @@ After installing all the required libraries, now let's run the file after openin
 $ streamlit run app.py
 ```
 ## Results
-*Input diagram.*
-![Input image](Input.png)
-*Design diagram.*
-![Design image](Design.png)
-*Detection diagram.*
-![Detection image](Detection_Result.png)
+*Input1.*
+![Input image](Images/Input1.png)
+*Planogram Design1.*
+![Design image](Images/Planogram Design1.png)
+*Planogram Analysis1.*
+![Analysis image](Images/Planogram Analysis1.png)
 
+*Input2.*
+![Input image](Images/Input2.png)
+*Planogram Design2.*
+![Design image](Images/Planogram Design2.png)
+*Planogram Analysis2.*
+![Analysis image](Images/Planogram Analysis2.png)
