@@ -50,13 +50,13 @@ $ streamlit run app.py
 *Input1.*
 ![Input image](Images/Input1.png)
 *Planogram Design1.*
-![Design image](Images/PlanogramDesign1.png)
+![Design image](Images/Planogram_Design1.png)
 *Planogram Analysis1.*
-![Analysis image](Images/PlanogramAnalysis1.png)
+![Analysis image](Images/Planogram_Analysis1.png)
 
 *Input2.*
 ![Input image](Images/Input2.png)
 *Planogram Design2.*
-![Design image](Images/PlanogramDesign2.png)
+![Design image](Images/Planogram_Design2.png)
 *Planogram Analysis2.*
-![Analysis image](Images/PlanogramAnalysis2.png)
+![Analysis image](Images/Planogram_Analysis2.png)
