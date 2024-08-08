@@ -19,10 +19,10 @@ The overview of the implementation is represented in the below diagram
 - **Shelf Detection**: Yolov8 object detection trained model that will identify the shelf in the given input image.
 
 - **SKU Detection**: The SKU's will be detected using YOLOV8 Object detection trained model.
-- 
+  
 - **Planogram Analysis**:Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct way in the input image and the anlaysed image will be shared as output.
 
-![Architecture Diagram](Images/Planogram_architecture_v1.png)
+![Architecture Diagram](Images/Planogram_architecture_v2.png)
 
 
 ## Models/Tools Used
