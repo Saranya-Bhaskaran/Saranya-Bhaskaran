@@ -16,7 +16,7 @@ The main objective of this usecase is to identify the shelves that are present i
 
 The overview of the implementation is represented in the below diagram
 
-- **Shelf Detection**: Yolov8 object detection trained model that will identify the shelf in the given input image.
+- **Shelf Detection**: YOLOV8 object detection trained model that will identify the shelf in the given input image.
 
 - **SKU Detection**: The SKU's will be detected using YOLOV8 Object detection trained model.
   
