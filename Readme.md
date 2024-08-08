@@ -16,11 +16,11 @@ The main objective of this usecase is to identify the shelves that are present i
 
 The overview of the implementation is represented in the below diagram
 
-- **Shelf Detection**: In this application user needs to upload an Image that will detect shelves using YOLOV8 Object detection trained model.
-  
-- **SKU Detection**: In the next step of the process the SKU's will be detected using YOLOV8 Object detection trained model. Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct in the input image and the anlaysed image will be shared as output.
+- **Shelf Detection**: Yolov8 object detection trained model that will identify the shelf in the given input image.
 
-
+- **SKU Detection**: The SKU's will be detected using YOLOV8 Object detection trained model.
+- 
+- **Planogram Analysis**:Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct way in the input image and the anlaysed image will be shared as output.
 
 ![Architecture Diagram](Images/Planogram_architecture.png)
 
@@ -29,7 +29,7 @@ The overview of the implementation is represented in the below diagram
 
 The list of the models that are used for the implementation given below:
 
-- **Model1**: YOLOV8 model to detect the shelves that are prsent in the rack.
+- **Model1**: YOLOV8 model to detect the shelves that are present in the rack.
 - **Model2**: YOLOV8 model to detect the store keeping unit(SKU) and the products that are present in the SKU.
 
 
