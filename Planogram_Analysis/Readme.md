@@ -21,6 +21,10 @@ The overview of the implementation is represented in the below diagram
 - **SKU Detection**: The SKU's will be detected using YOLOV8 Object detection trained model.
   
 - **Planogram Analysis**:Detected objects/products will be compared with the Planogram design to anlayse if the products arrangement is done in correct way in the input image and the anlaysed image will be shared as output.
+  The color information on the output image resembles as below:
+  Green - Planogram compliant
+  Yellow - Misplaced
+  Red - OSA - On-Shelf Availability
 
 ![Architecture Diagram](Images/Planogram_architecture_v2.png)
 
