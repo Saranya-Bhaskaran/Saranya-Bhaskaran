@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The main objective of this usecase is to identify the shelves that are present in the rack using the trained YOLOV8 model and in the next step SKU(store keeping units) are detected using the other YOLOV8 model. The resultant image is compared with the given planogram design to analyse the products allignment is correct or incorrect along with if any SKUS are in out of stock or empty condition. 
+The objective of the planogram analysis is to identify different SKUs arranged in a rack using object detection model and compare it against the reference planogram design. The program identifies the SKUs arranged in differently from the reference design and also identifies SKUs that are not present in the shelf (out of stock) from the given image.
 
 ## Solution Architecture
 
